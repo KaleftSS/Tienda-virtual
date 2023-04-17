@@ -48,3 +48,11 @@ CREATE TABLE pedidos_productos(
     FOREIGN KEY (id_pedidos) REFERENCES pedidos (id_pedidos) ON DELETE CASCADE
 );
 
+
+INSERT INTO cliente ( nombre, apellido, edad) VALUES
+("Hola","Salazar",18),
+("Como","Salazar",18),
+("Estan?","Salazar",18),
+("Todos","Salazar",18),
+("Aqui?","Salazar",18);
+
