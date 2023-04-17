@@ -56,3 +56,18 @@ INSERT INTO cliente ( nombre, apellido, edad) VALUES
 ("Todos","Salazar",18),
 ("Aqui?","Salazar",18);
 
+INSERT INTO pedidos (id_cliente, lugar_origen, lugar_destino) VALUES
+(1,"Popayan","Cali"),
+(2,"Cali","Cali"),
+(3,"Medellin","Cali"),
+(4,"Palmira","Cali"),
+(5,"Tambo","Cali");
+
+
+UPDATE cliente SET nombre = 'Kaleft' WHERE id_cliente = 1;
+UPDATE cliente SET apellido = 'Palta' WHERE id_cliente = 2;
+UPDATE cliente SET edad = 19 WHERE id_cliente = 3;
+
+DELETE FROM pedidos WHERE id_pedidos = 1;
+DELETE FROM pedidos WHERE id_pedidos = 2;
+DELETE FROM pedidos WHERE id_pedidos = 3;
